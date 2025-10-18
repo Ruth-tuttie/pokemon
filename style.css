@@ -8,8 +8,15 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
   margin-top: 120px;
   
+  
+}
+.search-input-wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 input{
   width: 300px;
@@ -19,4 +26,19 @@ input{
 }
 input::after{
   content: '';
+}
+.search-wrapper button{
+  width: 64px;
+  height: 32px;
+  background-color: rgb(89, 89, 197);
+  color: white;
+  border: none;
+  border-radius: 32px;
+}
+button:hover{
+  background-color: rgb(23, 23, 155);
+}
+.search-results-image{
+  width: auto;
+  height: 50%; 
 }

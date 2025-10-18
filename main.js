@@ -2,7 +2,7 @@
 
 
 //fetch data
-fetchData()
+
 async function fetchData() {
   try {
     let input = document.querySelector('.search-input').value;
@@ -28,6 +28,3 @@ console.log(data)
   }
 }
 
-function displayData() {
-
-}
